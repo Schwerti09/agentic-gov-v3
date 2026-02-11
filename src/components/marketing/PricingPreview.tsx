@@ -1,0 +1,1 @@
+import PricingTable from './PricingTable'; export default function PricingPreview(){return <section className='space-y-4'><div className='flex items-end justify-between'><h2 className='text-2xl font-bold'>Plans</h2><div className='text-white/60 text-sm'>Stripe Checkout (Demo-safe)</div></div><PricingTable/></section>}
