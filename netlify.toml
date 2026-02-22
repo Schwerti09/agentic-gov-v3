@@ -5,6 +5,8 @@
 [build.environment]
   NODE_VERSION = "18.17.1"
   NPM_VERSION = "9"
+  # Set NEXT_PUBLIC_APP_URL in Netlify UI → Site configuration → Environment variables
+  # to your actual Netlify URL, e.g. https://your-site.netlify.app
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
@@ -15,3 +17,4 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
