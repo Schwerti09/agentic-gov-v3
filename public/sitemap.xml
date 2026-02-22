@@ -4,4 +4,7 @@
   <url><loc>https://example.com/pricing</loc></url>
   <url><loc>https://example.com/features</loc></url>
   <url><loc>https://example.com/blog</loc></url>
+  <url><loc>https://example.com/dashboard</loc></url>
+  <url><loc>https://example.com/tools/ai-act-checker</loc></url>
+  <url><loc>https://example.com/tools/iso-gap-analyzer</loc></url>
 </urlset>
